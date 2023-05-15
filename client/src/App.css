@@ -1,0 +1,79 @@
+body {
+  width: 40%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 50px;
+  color: darkcyan;
+  font-weight: 1352;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+  font-size: 25px;
+  color: darkcyan;
+  width: 100%;
+  outline: solid 2px green;
+  padding: 5px;
+}
+
+.task {
+  background-color: blue;
+  padding: 10px;
+  margin: 15px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task span {
+  color: #FFFFFF;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: #6c6777;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: darkred;
+  width: 170px;
+}
